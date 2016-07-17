@@ -4,7 +4,8 @@
   "description": "Cam Huynh's RBCV",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --compilers js:babel-core/register"
+    "test": "mocha --compilers js:babel-core/register",
+    "build": "webpack -p"
   },
   "repository": {
     "type": "git",
