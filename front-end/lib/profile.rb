@@ -2,7 +2,7 @@
 # frozen-string-literal: true
 #
 # =================================
-# The Curriculum Vitae of Cam Huynh
+# The Curriculum Vitae of Cẩm Huỳnh
 # =================================
 
 DeveloperRepository.find_by_name("Cam Huynh").inspect
