@@ -61,6 +61,18 @@ DeveloperRepository.find_by_name("Cam Huynh").inspect
   ],
   projects: [
     {
+      name: "worque",
+      url: "https://github.com/huynhquancam/worque",
+      tags: [:worque, :cli],
+      technologies: [:Ruby, :Git]
+    },
+    {
+      name: "vim-worque",
+      url: "https://github.com/huynhquancam/vim-worque",
+      tags: [:worque, :cli, :productivity],
+      technologies: [:VimL]
+    },
+    {
       name: "bootstrap_validator_rails",
       url: "https://github.com/huynhquancam/bootstrap_validator_rails",
       tags: [:validator, :bootstrap, :rails],
