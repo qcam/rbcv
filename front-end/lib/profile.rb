@@ -5,22 +5,17 @@
 # The Curriculum Vitae of Cẩm Huỳnh
 # =================================
 
-DeveloperRepository.find_by_name("Cam Huynh").inspect
+DeveloperRepository.find_by_name("Cẩm Huỳnh").inspect
 
 {
   profile: {
-    name: "Cam Huynh",
-    handler: @huynhquancam,
+    name: "Cẩm Huỳnh",
+    handle: @huynhquancam,
     title: "Software Engineer",
-    location: {
-      city: "Saigon",
-      country: "Vietnam"
-    },
     gender: :male,
     contact: {
       email: [
-        "cam@hqc.me",
-        "huynhquancam@gmail.com"
+        "huynhquancam at Gmail"
       ],
       website: "https://hqc.io"
     }
@@ -40,7 +35,7 @@ DeveloperRepository.find_by_name("Cam Huynh").inspect
     {
       company: "Dadadee",
       website: "https://dadadee.com",
-      title: "Lead Back-end Engineer",
+      title: "Back-end Engineer",
       from: "May 2015",
       to: "March 2016"
     },
@@ -54,7 +49,7 @@ DeveloperRepository.find_by_name("Cam Huynh").inspect
     {
       company: "FutureWorkz",
       website: "http://futureworkz.com",
-      title: "Lead Software Engineer",
+      title: "Software Engineer",
       from: "July 2012",
       to: "Dec 2014"
     }
@@ -91,24 +86,10 @@ DeveloperRepository.find_by_name("Cam Huynh").inspect
       url: "https://github.com/huynhquancam/chat-stack",
       tags: [:chat, :restful],
       technologies: [:WebSocket, :Ruby, :Node]
-    },
-    {
-      name: "heroku-gitbook-buildpack",
-      description: "Heroku Buildpack for Gitbook",
-      url: "https://github.com/huynhquancam/heroku-buildpack-gitbook",
-      tags: [:heroku, :buildpack, :gitbook],
-      technologies: [:Node]
-    },
-    {
-      name: "dotfiles",
-      description: "My personal terminal setup",
-      url: "https://github.com/huynhquancam/dotfiles",
-      tags: [:dotfiles, :vimrc],
-      technologies: [:VimL, :Bash]
     }
   ]
 }
 
 # Thanks for viewing!
-# Source code can be found on [Github](https://github.com/huynhquancam/rbcv)
+# Source code can be found on Github at https://github.com/huynhquancam/rbcv.
 # Copyright 2016 by @huynhquancam
