@@ -10,7 +10,7 @@ DeveloperRepository.find_by_name("Cẩm Huỳnh").inspect
 {
   profile: {
     name: "Cẩm Huỳnh",
-    handle: @huynhquancam,
+    handle: @hqcam,
     title: "Software Engineer",
     gender: :male,
     contact: {
@@ -57,33 +57,33 @@ DeveloperRepository.find_by_name("Cẩm Huỳnh").inspect
   projects: [
     {
       name: "worque",
-      url: "https://github.com/huynhquancam/worque",
+      url: "https://github.com/qcam/worque",
       tags: [:worque, :cli],
       technologies: [:Ruby, :Git]
     },
     {
       name: "vim-worque",
-      url: "https://github.com/huynhquancam/vim-worque",
+      url: "https://github.com/qcam/vim-worque",
       tags: [:worque, :cli, :productivity],
       technologies: [:VimL]
     },
     {
       name: "bootstrap_validator_rails",
-      url: "https://github.com/huynhquancam/bootstrap_validator_rails",
+      url: "https://github.com/qcam/bootstrap_validator_rails",
       tags: [:validator, :bootstrap, :rails],
       technologies: [:Rubygems, :Bootstrap3, :Rails]
     },
     {
       name: "docebo_ruby",
       description: "Ruby wrapper for Docebo API",
-      url: "https://github.com/huynhquancam/docebo_ruby",
+      url: "https://github.com/qcam/docebo_ruby",
       tags: [:api, :docebo],
       technologies: [:RestClient, :Ruby, :RubyGems]
     },
     {
       name: "chat_stack",
       description: "Chat stack = RESTFul API + WebSocket",
-      url: "https://github.com/huynhquancam/chat-stack",
+      url: "https://github.com/qcam/chat-stack",
       tags: [:chat, :restful],
       technologies: [:WebSocket, :Ruby, :Node]
     }
@@ -91,5 +91,5 @@ DeveloperRepository.find_by_name("Cẩm Huỳnh").inspect
 }
 
 # Thanks for viewing!
-# Source code can be found on Github at https://github.com/huynhquancam/rbcv.
-# Copyright 2016 by @huynhquancam
+# Source code can be found on Github at https://github.com/qcam/rbcv.
+# Copyright 2016 by @hqcam
