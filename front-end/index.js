@@ -6,5 +6,3 @@ import 'file?name=index.html!./index.html'
 document.addEventListener("DOMContentLoaded", function() {
   document.getElementById('container').innerHTML = Profile.load()
 });
-
-
